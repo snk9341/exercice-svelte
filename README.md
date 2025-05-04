@@ -1,58 +1,95 @@
-# create-svelte
+# 🚗 Bibliothèque de Voitures – Version Svelte
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## 📋 Description
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+Ce projet est une application simple permettant d’ajouter et de gérer une liste de voitures, comme une to-do list personnalisée.  
+Il a été développé avec **Svelte** afin d'explorer les principes de réactivité, de composants et de stores.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## ⚙️ Fonctionnalités
 
-```bash
-# create a new project in the current directory
-npx sv create
+- ➕ Ajout de voitures à une bibliothèque personnelle
+- 🗑️ Suppression de voitures de la liste
+- 💾 Persistance locale via localStorage
+- ⚡ Interface rapide et légère grâce à Svelte
 
-# create a new project in my-app
-npx sv create my-app
-```
+---
 
-## Developing
+## 🚀 Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
+### 1. Cloner le dépôt
 
 ```bash
-npm run package
+git clone https://github.com/ton-utilisateur/svelte-car-library.git
+cd svelte-car-library
 ```
 
-To create a production version of your showcase app:
+### 2. Installer les dépendances
 
 ```bash
-npm run build
+npm install
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
+### 3. Lancer le projet
 
 ```bash
-npm publish
+npm run dev --host
 ```
+
+Accéder ensuite à l’URL locale affichée dans le terminal (`http://localhost:5173` par défaut).
+
+---
+
+## 🙋‍♂️ Auteur
+
+Projet développé par snk9341 dans le cadre d’un exercice d’initiation à Svelte.
+
+--------------------------------------------------------------
+
+# 🚗 Car Library – Svelte Version
+
+## 📋 Description
+
+This project is a simple application that allows users to manage a personal car list, similar to a custom to-do list.  
+It was built with **Svelte** to explore reactive components, stores, and fast front-end performance.
+
+---
+
+## ⚙️ Features
+
+- ➕ Add cars to a personal library
+- 🗑️ Remove cars from the list
+- 💾 Local persistence via localStorage
+- ⚡ Lightweight and fast interface thanks to Svelte
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/svelte-car-library.git
+cd svelte-car-library
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the project
+
+```bash
+npm run dev --host
+```
+
+Then open the local URL shown in the terminal (`http://localhost:5173` by default).
+
+---
+
+## 🙋‍♂️ Author
+
+Project developed by snk9341 as a practical introduction to Svelte.
